@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid"; // For Month View
-import { getDate } from './cmsData.ts'; // Ensure getDate is imported correctly
+import { getDate } from './cmsData.js'; // Ensure getDate is imported correctly
 import './calendar.css'; // Import the custom CSS file
 
 const CalendarComponent = () => {

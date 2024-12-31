@@ -1,4 +1,4 @@
-import CalendarComponent from "./Calender";
+import CalendarComponent from "./Calendar";
 const Calendar = () => {
   return (
     <div className="content-block">
